@@ -1,0 +1,13 @@
+Exercise 6: Number Guessing Game
+
+Create a number guessing game where the program randomly selects a number between 1 and 100, and the user has to guess the number. The program should give feedback on whether the guess is too low, too high, or correct. The game should continue until the user guesses the correct number.
+
+Test Cases:
+    1.	Random number: 42
+	•	Input: 50 | Output: Too high
+	•	Input: 25 | Output: Too low
+	•	Input: 42 | Output: Correct!
+	2.	Random number: 85
+	•	Input: 70 | Output: Too low
+	•	Input: 90 | Output: Too high
+	•	Input: 85 | Output: Correct!

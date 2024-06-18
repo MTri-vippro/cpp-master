@@ -1,0 +1,12 @@
+Leap Year Checker
+
+Create a program that takes a year as input and determines if it is a leap year. Use if-else statements to check the conditions:
+
+	•	A year is a leap year if it is divisible by 4 but not by 100, except when it is also divisible by 400.
+
+Test Cases:
+
+	1.	Input: 2000 | Output: 2000 is a leap year
+	2.	Input: 1900 | Output: 1900 is not a leap year
+	3.	Input: 2024 | Output: 2024 is a leap year
+	4.	Input: 2023 | Output: 2023 is not a leap year
