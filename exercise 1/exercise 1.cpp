@@ -19,10 +19,23 @@ int main(){
         {
             
             if(integer_2==0)
+
+
+
+            
                 cout<<"Error: Dvison by zero"<<endl;
             else
+
+
+
+
             cout<<integer_1/integer_2<< endl;
             break;
+
+
+
+
+            
         }
         default:
         cout<<"choose the operations again"<< endl;
