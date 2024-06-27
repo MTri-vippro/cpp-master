@@ -1,0 +1,19 @@
+ATM Machine Simulation
+
+Write a program to simulate an ATM machine. The program should allow the user to perform the following operations:
+
+	1.	Check balance
+	2.	Deposit money
+	3.	Withdraw money
+	4.	Exit
+
+Use switch case to handle the different operations. Initialize the balance to 1000.
+
+Test Cases:
+
+	1.	Initial balance: 1000
+	•	Operation: Check balance | Output: Your balance is 1000
+	•	Operation: Deposit 500 | Output: Deposit successful. Your balance is 1500
+	•	Operation: Withdraw 200 | Output: Withdrawal successful. Your balance is 1300
+	•	Operation: Withdraw 1500 | Output: Insufficient balance
+	•	Operation: Exit
