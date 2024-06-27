@@ -1,0 +1,14 @@
+	Write a function named createVector that returns a std::shared_ptr to a std::vector of integers. Populate this vector with the first 10 positive integers. Demonstrate using this function and accessing the vector in the main function.
+
+
+//Testcase
+shared_ptr<vector<int>> vec = createVector();
+cout << "Test Case 1: ";
+bool correct = true;
+for (int i = 0; i < 10; ++i) {
+	if (vec->at(i) != i + 1) {
+		correct = false;
+		break;
+	}
+}
+cout << correct << endl; // Should print: 1 (true)

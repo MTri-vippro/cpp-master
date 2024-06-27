@@ -1,0 +1,7 @@
+Write a lambda function that captures an external integer variable and prints its value. Demonstrate this lambda function in the main function.
+
+
+//Testcase
+int x = 10;
+auto printX = [&]() { cout << "Value of x: " << x << endl; };
+printX(); // Should print: Value of x: 10

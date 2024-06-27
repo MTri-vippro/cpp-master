@@ -1,0 +1,6 @@
+Write a function named greet that takes a string parameter name with a default value of “Guest”. The function should print “Hello, [name]!” to the console. Call this function with and without passing an argument.
+
+
+// Test cases for the greet function
+greet();           // Should print: Hello, Guest!
+greet("Alice");    // Should print: Hello, Alice!

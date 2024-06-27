@@ -1,0 +1,9 @@
+Implement a function named operate that takes two integers and a function pointer as parameters. The function pointer should point to a function that takes two integers and returns an integer. Create two functions named add and subtract that match this signature and demonstrate passing them to the operate function.
+
+
+
+
+//Testcase
+int x = 10, y = 5;
+cout << "Test Case 1: " << (operate(x, y, add) == 15) << endl;
+cout << "Test Case 2: " << (operate(x, y, subtract) == 5) << endl;

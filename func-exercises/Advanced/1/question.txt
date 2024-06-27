@@ -1,0 +1,8 @@
+Create a function template named maximum that returns the maximum of two parameters of any data type. Test this template with different data types in the main function.
+
+
+
+// Test cases for the maximum function template
+cout << "Test Case 1: " << (maximum(3, 7) == 7) << endl;
+cout << "Test Case 2: " << (maximum(3.5, 2.1) == 3.5) << endl;
+cout << "Test Case 3: " << (maximum('a', 'z') == 'z') << endl;

@@ -1,0 +1,9 @@
+Implement a recursive function named factorial that calculates the factorial of a given integer. Test this function in the main function with various inputs.
+
+
+
+
+// Test cases for the factorial function
+cout << "Test Case 1: " << (factorial(5) == 120) << endl;
+cout << "Test Case 2: " << (factorial(0) == 1) << endl;
+cout << "Test Case 3: " << (factorial(1) == 1) << endl;
