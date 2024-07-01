@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int number{};
     int initial{1000};
-    int deposit_money;
+    int deposit_money{};
     int withdraw_money;
     do {
         cout<<"1. Check balance"<<endl;
@@ -24,8 +24,8 @@ int main(){
         }else if(number==3){
         cout<<"Enter money you want to withdraw: "<<endl;
         cin>>withdraw_money;
-        if(withdraw_money<=initial){
-            cout<<"withdraw succesful. Your balance is "<<initial-withdraw_money<<endl;
+        if(initial+deposit_money>withdraw_money||withdraw_money<initial){
+            cout<<"withdraw succesful. Your balance is "<<initial+deposit_money-withdraw_money<<endl;
             cout<<"---------------------------"<<endl;
         }else
             cout<<"Your balance is not enough for withdrawing";
