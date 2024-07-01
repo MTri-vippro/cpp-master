@@ -1,0 +1,71 @@
+Exercise 1: Pointer Initialization
+- Declare an integer variable and a pointer to that integer. Initialize the pointer and print the value using the pointer.
+
+Example Output:
+Value of num: 10
+
+Exercise 2: Pointer and Array
+- Create an array of 5 integers. Use a pointer to traverse and print each element of the array.
+
+Example Output:
+Array elements: 1 2 3 4 5
+
+Exercise 3: Pointer to Pointer
+- Declare an integer variable, a pointer to that integer, and a pointer to the pointer. Print the value using the pointer to pointer.
+
+Example Output:
+Value of num using ptr2: 20
+
+Exercise 4: Pointer Arithmetic
+- Declare an array of 5 integers. Use pointer arithmetic to print the address of each element in the array.
+
+Example Output:
+Addresses of array elements:
+0x7ffee5d24a40
+0x7ffee5d24a44
+0x7ffee5d24a48
+0x7ffee5d24a4c
+0x7ffee5d24a50
+
+Exercise 5: Dynamic Memory Allocation
+- Write a program that dynamically allocates memory for an integer, assigns a value, and prints it. Then, free the allocated memory.
+
+Example Output:
+Value of dynamically allocated integer: 42
+
+Exercise 6: Array of Pointers
+- Create an array of pointers to integers. Allocate memory for each pointer, assign values, and print them.
+
+Example Output:
+Values of array elements:
+10
+20
+30
+40
+50
+
+Exercise 7: Function with Pointer Parameter
+- Write a function that takes a pointer to an integer as a parameter, modifies the value, and prints the result in the main function.
+
+Example Output:
+Value after modification: 15
+
+Exercise 8: Pointer to Structure
+- Define a structure with two members. Declare a pointer to the structure, allocate memory, assign values to the members, and print them.
+
+Example Output:
+Structure values:
+Name: John
+Age: 25
+
+Exercise 9: Pointer to Const
+- Declare a constant integer and a pointer to that constant integer. Try to modify the value through the pointer and observe the result.
+
+Example Output:
+Error: assignment of read-only location
+
+Exercise 10: Const Pointer
+- Declare an integer variable and a constant pointer to that variable. Modify the value of the variable through the pointer.
+
+Example Output:
+Value of num: 30
