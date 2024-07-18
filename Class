@@ -1,0 +1,10 @@
+Bài 1: Quản lý thông tin sinh viên
+Tạo một lớp Student với các thuộc tính: id, name, age, grade. Viết các phương thức để nhập và xuất thông tin của sinh viên.
+Bài 2: Quản lý thông tin sách
+Tạo một lớp Book với các thuộc tính: isbn, title, author, price. Viết các phương thức để nhập, xuất thông tin và tính giảm giá cho sách.
+Bài 3: Quản lý nhân viên
+Tạo một lớp Employee với các thuộc tính: id, name, position, salary. Viết các phương thức để nhập, xuất thông tin và tính tiền thưởng cho nhân viên.
+Bài 4: Quản lý hình chữ nhật
+Tạo một lớp Rectangle với các thuộc tính: length, width. Viết các phương thức để nhập, xuất thông tin, tính diện tích và chu vi hình chữ nhật.
+Bài 5: Quản lý điểm trong không gian 3D
+Tạo một lớp Point3D với các thuộc tính: x, y, z. Viết các phương thức để nhập, xuất thông tin và tính khoảng cách giữa hai điểm trong không gian 3D.
